@@ -82,7 +82,13 @@ For Windows:
 
 For Linux:
 
-    TBD
+    Download [TA-Lib binaries](https://ta-lib.org/hdr_dw.html)
+
+    tar -zxvf ta-lib-x.x.x-src.tar.gz
+    cd ta-lib
+    ./configure --prefix=/usr
+    make
+    sudo make install
 
 Then install the Python library:
 
