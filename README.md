@@ -82,7 +82,7 @@ For Windows:
 
 For Linux:
 
-    Download [TA-Lib binaries](https://ta-lib.org/hdr_dw.html)
+Download [TA-Lib binaries](https://ta-lib.org/hdr_dw.html)
 
     tar -zxvf ta-lib-x.x.x-src.tar.gz
     cd ta-lib
@@ -93,6 +93,18 @@ For Linux:
 Then install the Python library:
 
     pip install TA-Lib
+
+Install Plotly dependencies
+
+    pip install dash
+    pip install dash-renderer
+    pip install dash-core-components
+    pip install dash-html-components
+
+Install other Python dependencies
+
+    pip install pandas
+    pip install pandas_datareader
 
 ## Documentation
 
